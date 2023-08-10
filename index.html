@@ -5,9 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Project</title>
 </head>
-<body>
+<body style="background-color: rgb(54, 50, 50);color: rgb(255, 255, 255);">
 <br>
-<h1 align="center"> محمد کلهری </h1>
+<center>
+    
+    <div  style="background-color: rgb(33, 151, 102);border-radius: 10px; width: 60%; height: 25%; padding: 20px;">
+<h1 align="center"> Welcome Page ! </h1>
+<br><button style="border: 0px; border-radius: 100%; padding: 20px;" onclick="myFunction()">INFO</button>
+</div>
+
+<script>
+
+function myFunction() {
+  var x = document.createElement("H2");
+  var f = document.createElement("H2");
+  var t = document.createTextNode("Your Name is :  ");
+  var l = document.createTextNode(Name);
+  x.appendChild(t);
+  x.appendChild(l);
+  document.body.appendChild(x);
+  document.body.appendChild(f);
+}
+</script>
+
+
+</center>
 <!---<script>alert(10)</script>--->
 <script src="js/script.js"></script>
 </body>
