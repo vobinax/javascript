@@ -9,8 +9,8 @@ var caption = "NONE"
 var online = true
 
 // get type of online variable
-
 alert(`welcome ${Name} !`)
+
 /*
 first variable
 2st
