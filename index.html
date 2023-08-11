@@ -3,23 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Project</title>
+    <title>welcome page</title>
 </head>
-<body style="background-color: rgb(54, 50, 50);color: rgb(255, 255, 255);">
-<br>
+<body style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;background-color: #363232;color: rgb(255, 255, 255);margin-top: 0%;margin-right: 0%;margin-left: 0%;">
+<!--*************Header-start***********-->
+<header style="background-color: rgb(33, 151, 102);border-radius: 30px; margin-top: 10px;margin-left: 5%; margin-right: 5%;">
+  <img src="img/10.png" href="index.html" style="padding-left: 5%; width:7%;"></img>
+  <a href="/" style="font-weight: bold; font-size: 20px; text-decoration:none; color: aliceblue;position: absolute;margin-block-start: 35px; margin-left: 7%;">Main Page</a>
+  <a href="/" style="font-weight: bold;font-size: 20px;text-decoration:none;color: aliceblue;position: absolute;margin-block-start: 35px;margin-left: 35%;">Git Hub</a>
+  <a href="/" style="font-weight: bold;font-size: 20px;text-decoration:none;color: aliceblue;position: absolute;margin-block-start: 35px;margin-left: 60%;">This Project</a>
+</header>
+<!--*************Header-end***********-->
+
+
+
 <center>
-    
-    <div  style="background-color: rgb(33, 151, 102);border-radius: 10px; width: 60%; height: 25%; padding: 20px;">
+<div style="margin: 15%;"></div>
+
+
+    <div  style="background-color: rgb(33, 151, 102);border-radius: 10px; width: 60%; height: 25%; padding-top: 20px;">
 <h1 align="center"> Welcome Page ! </h1>
-<br><button style="border: 0px; border-radius: 100%; padding: 20px;" onclick="myFunction()">INFO</button>
+<br><button style="border: 0px;width: 20%; border-radius: 40px 40px 0px 0px; padding: 20px;" onclick="myFunction()">
+Your Name
+  </button>
 </div>
+
 
 <script>
 
 function myFunction() {
   var x = document.createElement("H2");
   var f = document.createElement("H2");
-  var t = document.createTextNode("Your Name is :  ");
+  var t = document.createTextNode("  Your Name is :  ");
   var l = document.createTextNode(Name);
   x.appendChild(t);
   x.appendChild(l);
